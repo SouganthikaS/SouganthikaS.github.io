@@ -1,32 +1,132 @@
 <!doctype html>
 
-<!-- this is a comment for human! -->
-
 <html lang="en">
 
-  <header>
-      <title>Souganthika</title>
-      <link rel = "stylesheet" href="css/master.css">
-      <link rel = "FaviconIcon" href="favicon.ico" type="image/x-icon">
-      <link rel = "shortcut" href="favicon.ico" type="image/x-icon">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="name" content ="Souganthika's Portal">
-  </header>
+<header>
+    <title>Souganthika</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="name" content="Souganthika's Portal">
+</header>
 
-  <body>
-    <img src="images/blog.jpg" alt="Blog">
-    <h1>My very own blog</h1>
-    <h2>About me</h2>
-    <p>I am a student at Thiagarar College of Engineering pursing my undergraduate in Information Technology.</p>
-    <h2>Credentials and Portfolio</h2>
-    <p><a href="resume.html">My Resume </a>| <a href="https://github.com/SouganthikaS">My GitHub</a></p>
-    <h2>Contact</h2>
-    <p>Email:<a href="mailto:souganthikasankareswaran@gmail.com"> souganthikasankareswaran@gmail.com</a></p>
-  </body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="home"></div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="home">Souganthika</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" style="background-color: #343a40;">
+            <ul class="navbar-nav" style="background-color:#343a40;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proj">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bgimg">
+        <img class="img-fluid" src="image/blog.jpg" alt="bgimg">
+    </div>
+    <div class="home-content">
+        <h1><br />Hi, I'm Souganthika!<br /></h1>
+        <h3><br />I am a student at Thiagarar College of Engineering, Madurai.</h3>
+    </div>
+    <div class="abt" id="about">
+        <div class="abt-content">
+            <br /><br /><br />
+            <p>I hail from Coimbatore where I did my schooling. Computers have always interested me. I started exploring
+                computers at the age of 10. And that, has led me choose Information Technology as my Bachelor Program.
+                "Beleive and act as if it were impossible to fail"- That is what my spirit is. Perseverance and
+                perfection are what I would always add to my strengths.</p>
+        </div>
+        <div class="abt-content-2">
+            <br /><br /><br /></br>
+            <h4>My Interests</h4>
+            <ul>
+                <li>Computer Networks</li>
+                <li>Security</li>
+                <li>Responsive Web Designing</li>
+            </ul>
+        </div>
+    </div>
+    <div class="skill" id="skill">
+        <h1><br />My Skill Set<br /></h1>
+        <div class="skill-container">
+            <div class="skill-set">
+                <img src="image/html.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/css.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/js.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/php.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/angular.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/bs.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/py.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/c.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/java.png" alt="HTML">
+            </div>
+            <div class="skill-set">
+                <img src="image/sql.png" alt="HTML">
+            </div>
 
-  <footer>
-    <hr>
-    <code>Copyright (c) 2020 Souganthika</code>
-  </footer>
+        </div>
+    </div>
+    <div class="project" id="proj">
+        <h1><br />My Project<br /></h1>
+        <p><strong>Wall-E</strong> is an IoT project done as a team. The first level of the project is complete. The
+            physical structure is complete and the model is can be set into motion by controller.</p>
+        <div class="img-con"><img src="image/walle.png" alt="Wall-E Model" class="center"></div>
+
+    </div>
+    <div class="contact" id="contact">
+        <h1><br />Contact Me At<br /></h1>
+        <div class="contact-details">
+            <p>Email : <a href="mailto:souganthikasankareswaran@gmail.com"
+                    target="_blank">souganthikasankareswaran@gmail.com</a></p>
+            <a href="https://www.linkedin.com/in/souganthika-sankareswaran-3629a51a2" target="_blank"><i
+                    class="fa fa-linkedin-square" aria-hidden="true"></i></a> |
+            <a href="resume.html" target="_blank">My Resume</a> |
+            <a href="https://github.com/SouganthikaS" target="_blank"><i class="fa fa-github-square"
+                    aria-hidden="true"></i></a></p>
+        </div>
+    </div>
+</body>
+<footer>
+    Copyright (c) 2020 Souganthika
+</footer>
 
 </html>
