@@ -27,7 +27,10 @@ ul{
 #about{
     padding: 0 100px;
     color: azure;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 .abt-content{
@@ -45,7 +48,7 @@ ul{
     padding: 5px;
     padding-left: 100px;
 }
-.abt-content-2 ul{
+.abt-content ul{
     padding-left: 2.5em;
 }
 #skill{
@@ -95,4 +98,28 @@ footer{
     font-size: 15px;
     font-family: 'Grandstander';
     padding:50px 0 10px;
+}
+@media screen and (max-width: 960px){
+    #footer{
+        max-width: 600px;
+    }
+    .abt-content,.abt-content-2{
+        width: 100%;
+        padding: 5px 20px 5px;
+    }
+    .abt-content-2{
+        text-align: center;
+    }
+    .abt-content-2 h4{
+        color: turquoise;
+        padding-bottom: 10px;
+    }
+    .abt-content-2 ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    #contact .contact-details{
+        padding: 20px;
+    }
+
 }
